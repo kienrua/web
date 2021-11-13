@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="StyleSheet" href="style.css">
+    <title>Giao hàng</title>
+</head>
+
+<body>
+    <section class="top">
+        <div class="logo">
+            <img src="logo.png" alt="">
+        </div>
+        <div class="menu">
+
+            <li><a href=""> NỮ</a>
+                <ul class="sub-menu">
+
+                    <li>
+                        <a href="">Hàng mới về</a>
+                    </li>
+
+                    <li>
+                        <a href="">Collection</a>
+                    </li>
+                    <li>
+                        <a href="">Áo</a>
+                        <ul>
+                            <li><a href="">Áo sơ mi</a></li>
+                            <li><a href="">Áo vét</a></li>
+                            <li><a href="">Áo thun </a></li>
+                            <li><a href="">Áo khoác</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">Quần</a>
+                        <ul>
+                            <li><a href="">Quần jean</a></li>
+                            <li><a href="">Quần short</a></li>
+                            <li><a href="">Quần vải</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </li>
+            <li><a href=""> NAM </a></li>
+            <li><a href=""> TRẺ EM </a></li>
+            <li><a href=""> SALE </a></li>
+            <li><a href=""> BỘ SƯU TẬP </a></li>
+            <li><a href="">TIN TỨC </a></li>
+            <li><a href="">THÔNG TIN </a></li>
+        </div>
+        <div class="other">
+            <li> <input placeholder="Tìm kiếm" type="text"> <i class="fas fa-search "></i></li>
+            <li>
+                <a class="fa fa-paw" href=""></a>
+            </li>
+            <li>
+                <a class="fa fa-user" href=""></a>
+            </li>
+            <li>
+                <a class="fa fa-shopping-bag" href=""></a>
+            </li>
+        </div>
+    </section>
+    <!-------------------delivery----------------->
+    <section class="delivery">
+        <div class="container">
+            <div class="delivery-top-wrap">
+                <div class="delivery-top">
+                    <div class="delivery-top-item delivery-top-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="delivery-top-item delivery-top-address">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="delivery-top-item delivery-top-payment ">
+                        <i class="fas fa-money-check-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="delivery-content">
+                <div class="delivery-content-left">
+
+                    <p>Vui lòng chọn địa chỉ nhận hàng</p>
+
+                    <div class="delivery-content-left-login">
+                        <i class=" fas fa-sign-in -alt"></i>
+                        <p>Đăng nhập(Nếu bạn đã có tài khoản IVY)</p>
+                    </div>
+                    <div class="delivery-content-left-khachle">
+                        <input type="radio" checked name="doanxem">
+                        <p><span>Khách lẻ</span> (Nếu bạn không muốn lưu lại thông tin)</p>
+                    </div>
+                    <div class="delivery-content-left-signup ">
+                        <input type="radio" name="doanxem">
+                        <p>Đăng ký</p>
+                    </div>
+
+                    <div class="delivery-content-left-input-top ">
+                        <div class="delivery-content-left-input-top-item ">
+                            <label for=" ">Họ tên <span style="color: red; ">*</span></label>
+                            <input type="text ">
+                        </div>
+                        <div class="delivery-content-left-input-top-item ">
+                            <label for=" ">Điện thoại <span style="color: red; ">*</span></label>
+                            <input type="text ">
+                        </div>
+                        <div class="delivery-content-left-input-top-item ">
+                            <label for=" ">Tỉnh/Thành phố <span style="color: red; ">*</span></label>
+                            <input type="text ">
+                        </div>
+                        <div class="delivery-content-left-input-top-item ">
+                            <label for=" ">Quận/Huyện <span style="color: red; ">*</span></label>
+                            <input type="text ">
+                        </div>
+                    </div>
+
+                    <div class="delivery-content-left-input-bottom ">
+                        <label for=" ">Địa chỉ <span style="color: red; ">*</span></label>
+                        <input type="text ">
+                    </div>
+
+
+                    <div class="delivery-content-left-button ">
+                        <a href=" "><span>&#171;</span> Quay lại giỏ hàng</a>
+                        <button><p style="font-weight: bold; ">THANH TOÁN VÀ GIAO HÀNG</p> </button>
+                    </div>
+                </div>
+
+                <div class="delivery-content-right ">
+                    <table>
+                        <tr>
+                            <th>Tên sản phẩm</th>
+                            <th>Giảm giá</th>
+                            <th>Số lượng</th>
+                            <th>Thành tiền</th>
+                        </tr>
+                        <tr>
+                            <td>Áo dahfjafhja</td>
+                            <td>-30%</td>
+                            <td>1</td>
+                            <td>
+                                <p>59000 <sup>đ</sup></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bold; " colspan="3 ">Tổng thành tiền</td>
+                            <td>
+                                <p>59000 <sup>đ</sup></p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="app-container ">
+        <p>TẢI ỨNG DỤNG</p>
+        <div class="app-gg ">
+            <img src="appstore.jpg " alt=" ">
+            <img src="googleplay.jpg " alt=" ">
+        </div>
+        <p>Nhận bản tin </p>
+        <input type="text " placeholder="Nhập email của bạn ">
+    </section>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js ">
+</script>
+<script type="text/javascript " src="style.js "></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js "></script>
+
+</html>
